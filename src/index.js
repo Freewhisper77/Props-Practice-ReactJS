@@ -1,25 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-function Card() {
-    return (
-        <div>
-            <h1>My Contacts</h1>
-
-            <h2>Beyonce</h2>
-            <img
-                src="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
-                alt="avatar_img"
-            />
-            <p>+123 456 789</p>
-            <p>b@beyonce.com</p>
-        </div>
-    );
-}
+import App from "./Component/App";
 
 ReactDOM.render(
   <div>
-      <Card />
+    <App />
     <h2>Jack Bauer</h2>
     <img
       src="https://pbs.twimg.com/profile_images/625247595825246208/X3XLea04_400x400.jpg"
