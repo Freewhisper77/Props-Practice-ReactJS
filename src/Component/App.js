@@ -5,6 +5,7 @@ export default function App() {
     return (
         <>
             <h1>My Contacts</h1>
+            {/*好比 我们调用了 Card 这个函数，并且通过 props 传入了一个对象*/}
             <Card
                 name="Beyonce"
                 img="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
